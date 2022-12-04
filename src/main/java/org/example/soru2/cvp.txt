@@ -1,0 +1,10 @@
+Primitive tiplerin birbirlerine dönüşümlerini açıklayınız. (Casting)
+
+ byte => short => int => long => float => double
+ küçük veri tipleri büyük veri tiplerine çevrilirken sorun yok ama büyük veri tipinden
+ küçük veri tipine çevrilirken bilgi kaybı olabilir. Veri kayı olmayacagından emin isek
+ tip dönüştürme kullanmalıyız.
+
+
+
+

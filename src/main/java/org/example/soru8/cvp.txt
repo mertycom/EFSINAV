@@ -1,0 +1,6 @@
+Soru 8
+Bir problemi çözerken yaptığınız aşamaları açıklayarak yazınız?
+
+kagıda kurguyu yazabilmeye çalışmak
+programa kurguyu yazıp algoritma varsa methotlarla yorum şeklinde belirtmek
+sonra algoritmayı programa katabilmek

@@ -1,0 +1,21 @@
+Aşağıdaki kodun çıktısı ne olur?
+
+class FinalExam {
+ public static void main(String [] args) {
+ java.util.Scanner kb = new java.util.Scanner(System.in);
+ int i;
+ System.out.print("Enter a number:");
+ int n = kb.nextInt();
+ for (i = 0; i < n; ++i);
+ System.out.printf("%d ", i);
+ System.out.println();
+ System.out.println("----------------------------");
+ for (i = n - 1; i >= 0; --i)
+ System.out.printf("%d ", i);
+ System.out.println(); } }
+
+ cvp:
+
+n-1
+----------------------------
+n-2 n-3 n-4 n-5 ... 0
