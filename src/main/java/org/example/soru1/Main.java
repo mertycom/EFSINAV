@@ -3,6 +3,7 @@ package org.example.soru1;
 public class Main {
     public static void main(String[] args) {
         long count,number,reverse,total;
+
         for(int i=10;i<=100;i++){
             count=0;
             number=i;

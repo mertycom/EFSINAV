@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // ax^2+bx+c
 
+
         java.util.Scanner kb = new java.util.Scanner(System.in);
         System.out.print("Enter a:");
         int a = kb.nextInt();
