@@ -14,13 +14,13 @@ public class Main {
         System.out.print("Enter c:");
         int c = kb.nextInt();
 
-        int base1 = (-b + root(pow(b,2) -(4*a*c))/(2*a));
-        System.out.println(base1+" "+(0-base1));
+        double base1 = (-b + root(((int)Math.pow(b,2)) -(4*a*c))/(2*a));
+        double base2 = (-b - root(pow(b,2) -(4*a*c))/(2*a));
+        System.out.println(base1+"..."+base2);
     }
 
-    private static int root(int i) {
-        //do this algorithm
-        return i;
+    private static double root(int i) {
+        return Math.sqrt(i);
     }
 
     public static int pow(int a, int b) {

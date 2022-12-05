@@ -9,7 +9,7 @@ public class Armstrong {
         System.out.print("Enter a number:");
         int number = kb.nextInt();
 
-        for (int i =faktorial(number); ;i++){
+        for (long i =faktorial(number); ;i++){
             if(isArmstrong(i)){
                 System.out.println(i);
                 break;
@@ -18,13 +18,13 @@ public class Armstrong {
 
     }
 
-    private static boolean isArmstrong(int i) {
+    private static boolean isArmstrong(long i) {
         return i == getDigitsPowSum(i) && i > 0;
     }
 
-    public static int getDigitsPowSum(int a) { // --
-        int digits = countDigits(a);
-        int result = 0;
+    public static long getDigitsPowSum(long a) { // --
+        long digits = countDigits(a);
+        long result = 0;
 
         while (a != 0) {
             result += pow(a % 10, digits);
@@ -34,7 +34,7 @@ public class Armstrong {
         return result;
     }
 
-    public static int pow(int a, int b) {
+    public static long pow(long a, long b) {
         int result = 1;
 
         while (b-- > 0) {
@@ -44,7 +44,7 @@ public class Armstrong {
         return result;
     }
 
-    public static int countDigits(int a) {
+    public static long countDigits(long a) {
         int count = 0;
 
         do {
@@ -55,7 +55,7 @@ public class Armstrong {
         return count;
     }
 
-    private static int faktorial(int number) {
+    private static long faktorial(int number) {
         int result = 1;
         for(int i = 1; i <= number; i++){
             result = result * i;
